@@ -1,0 +1,11 @@
+#!/bin/bash
+
+apt-get install autoconf
+apt-get install automake
+apt-get install libtool
+apt install pkg-config
+apt install autoconf-archive
+autoreconf -i
+./configure
+make
+make install
